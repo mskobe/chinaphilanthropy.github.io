@@ -1,0 +1,435 @@
+id	amount	month	date	orig	dest	cause
+8	1000	12	16	Beijing	Jiangsu	Culture
+9	15	12	N/A	Beijing	Beijing	Culture
+123	0.75	8	1	Guangdong	Jiangsu	Culture
+124	10	3	16	Guangdong	Shanxi	Culture
+250	20.055	5	3	Heilongjiang	Beijing	Culture
+251	17.00139	6	15	Heilongjiang	Beijing	Culture
+252	13.013821	9	27	Heilongjiang	Beijing	Culture
+253	5	4	28	Heilongjiang	Beijing	Culture
+254	5	8	9	Heilongjiang	Beijing	Culture
+337	1.8			Jiangsu	Jiangsu	Culture
+10	3.54	7	13	Beijing	Sichuan	Disaster Relief
+11	0.89701	12	17	Beijing	Sichuan	Disaster Relief
+12	0.66051	12	17	Beijing	Sichuan	Disaster Relief
+13	0.628585	12	17	Beijing	Sichuan	Disaster Relief
+14	0.39718	12	17	Beijing	Sichuan	Disaster Relief
+15	0.28148	12	17	Beijing	Sichuan	Disaster Relief
+16	0.25695	12	17	Beijing	Sichuan	Disaster Relief
+17	0.25505	12	17	Beijing	Sichuan	Disaster Relief
+18	0.247831	12	17	Beijing	Sichuan	Disaster Relief
+19	0.1762	12	17	Beijing	Sichuan	Disaster Relief
+20	0.14984	12	17	Beijing	Sichuan	Disaster Relief
+21	0.14495	12	17	Beijing	Sichuan	Disaster Relief
+22	0.1393	12	17	Beijing	Sichuan	Disaster Relief
+23	0.1037	12	17	Beijing	Sichuan	Disaster Relief
+24	10	9		Beijing	Tianjin	Disaster Relief
+25	0.5403821	3		Beijing	Hebei	Disaster Relief
+26	0.3985727	7		Beijing	Hubei	Disaster Relief
+27	0.34165333	3		Beijing	Jiangsu	Disaster Relief
+28	0.12882	10		Beijing	Tianjin	Disaster Relief
+29	0.1008695	7		Beijing	Fujian	Disaster Relief
+30	0.1002445	7		Beijing	Hubei	Disaster Relief
+31	0.08608786	3		Beijing	Liaoning	Disaster Relief
+32	0.0717944	3		Beijing	Liaoning	Disaster Relief
+33	0.02372	3		Beijing	Shanxi	Disaster Relief
+34	0.012882	10		Beijing	Tianjin	Disaster Relief
+35	4	7	24	Beijing	Hainan	Disaster Relief
+36	2	7	11	Beijing	Hubei	Disaster Relief
+119	8	12	15	Fujian	Beijing	Disaster Relief
+257	10	6	24	Hong Kong	Jiangsu	Disaster Relief
+260	6	7	8	Hubei	Hubei	Disaster Relief
+261	1	7	16	Hubei	Hubei	Disaster Relief
+338	1.5	8	26	Jiangsu	Italy	Disaster Relief
+339	1	8	3.25	Jiangsu	Hubei	Disaster Relief
+340	1	8	3.25	Jiangsu	Hunan	Disaster Relief
+341	1	8	3.25	Jiangsu	Anhui	Disaster Relief
+342	1	8	3.25	Jiangsu	Guizhou	Disaster Relief
+343	1	8	3.25	Jiangsu	Yunnan	Disaster Relief
+344	1	8	3.25	Jiangsu	Guangxi	Disaster Relief
+345	1	8	3.25	Jiangsu	Jiangxi	Disaster Relief
+346	1	8	3.25	Jiangsu	Chongqing	Disaster Relief
+398	18.5	9	10	Tianjin	Tianjin	Disaster Relief
+399	10	6		Tianjin	Jiangsu	Disaster Relief
+407	0.25	7	27	Zhejiang	Hubei	Disaster Relief
+408	0.25	7	27	Zhejiang	Hunan	Disaster Relief
+409	0.25	7	27	Zhejiang	Anhui	Disaster Relief
+410	0.25	7	27	Zhejiang	Guizhou	Disaster Relief
+411	0.25	7	27	Zhejiang	Yunnan	Disaster Relief
+412	0.25	7	27	Zhejiang	Guangxi	Disaster Relief
+413	0.25	7	27	Zhejiang	Jiangxi	Disaster Relief
+414	0.25	7	27	Zhejiang	Chongqing	Disaster Relief
+37	700	12	21	Beijing	Shanghai	Education
+38	50	5	8	Beijing	Shandong	Education
+39	50	5	8	Beijing	Hubei	Education
+40	50	5	8	Beijing	Guangxi	Education
+41	50	5	8	Beijing	Guizhou	Education
+42	50	5	8	Beijing	Chongqing	Education
+43	50	5	8	Beijing	Shanxi	Education
+44	10	7	20	Beijing	Shandong	Education
+45	200	10	16	Beijing	Beijing	Education
+46	50	11	19	Beijing	Zhejiang	Education
+47	10	12	19	Beijing	Jiangsu	Education
+48	1	1	11	Beijing	Guangdong	Education
+49	0.3	1	10	Beijing	Guangdong	Education
+50	0.3	9	21	Beijing	Guizhou	Education
+51	0.3	11	27	Beijing	Shandong	Education
+52	180	4	22	Beijing	Beijing	Education
+53	110	12	7	Beijing	Guangdong	Education
+54	100	3	23	Beijing	Beijing	Education
+55	100	12	4	Beijing	Beijing	Education
+56	15	1	12	Beijing	Beijing	Education
+57	10	4	20	Beijing	Beijing	Education
+58	6.5	3	4	Beijing	Shanghai	Education
+59	5	3	31	Beijing	Beijing	Education
+60	1.427	12	17	Beijing	Beijing	Education
+61	0.45925	12	17	Beijing	Beijing	Education
+62	0.43966	12	17	Beijing	Beijing	Education
+63	0.35557	12	17	Beijing	Beijing	Education
+64	0.339	12	17	Beijing	Beijing	Education
+65	0.27301	12	17	Beijing	Beijing	Education
+66	0.224425	12	17	Beijing	Beijing	Education
+67	0.18877	12	17	Beijing	Beijing	Education
+68	0.150018	12	17	Beijing	Beijing	Education
+69	0.1183	12	17	Beijing	Beijing	Education
+70	0.10625	12	17	Beijing	Beijing	Education
+71	0.034634333	12	17	Beijing	Beijing	Education
+72	30	11	12	Beijing	Sichuan	Education
+73	2	11		Beijing	Beijing	Education
+74	1	9		Beijing	Shanghai	Education
+75	0.3477	7		Beijing	Guangxi	Education
+76	0.25	9		Beijing	Guangxi	Education
+77	20	7	2	Beijing	Beijing	Education
+78	10	11	28	Beijing	Fujian	Education
+79	5	7	5	Beijing	Tianjin	Education
+80	1	6	24	Beijing	Hubei	Education
+81	10.38432149	9	7	Beijing	Tianjin	Education
+82	10	11	2	Beijing	Guangdong	Education
+83	10	9	10	Beijing	Liaoning	Education
+84	9	9	22	Beijing	Beijing	Education
+85	1	9	22	Beijing	Beijing	Education
+86	9	11		Beijing	Guangdong	Education
+87	0.8	5	28	Beijing	Beijing	Education
+88	0.8	5	28	Beijing	Tianjin	Education
+89	0.8	5	28	Beijing	Wuhan	Education
+90	0.8	5	28	Beijing	Sichuan	Education
+91	0.8	5	28	Beijing	Shanghai	Education
+92	0.02171	5	29	Beijing	Shanxi	Education
+120	100	5	2	Fujian	Beijing	Education
+121	2	4	11	Fujian	Fujian	Education
+125	2095.1	5	22	Guangdong	Worldwide	Education
+126	6.4992	3	12	Guangdong	California	Education
+127	100	9	17	Guangdong	Guangdong	Education
+128	3	9	16	Guangdong	Shaanxi	Education
+129	200	5	3	Guangdong	Beijing	Education
+130	120	7	31	Guangdong	Guangdong	Education
+131	60	12	22	Guangdong	Beijing	Education
+132	2	11	4	Guangdong	Beijing	Education
+133	0.9	3	16	Guangdong	Shanghai	Education
+134	30	9	17	Guangdong	Guangdong	Education
+135	30	9	17	Guangdong	Guangdong	Education
+136	22.67	8	15	Guangdong	Beijing	Education
+137	3	1	9	Guangdong	Guangdong	Education
+138	3	9	9	Guangdong	Guangdong	Education
+139	20	11	10	Guangdong	Hubei	Education
+140	5	12	24	Guangdong	Hunan	Education
+141	5	12	31	Guangdong	Hunan	Education
+142	0.72	12	2	Guangdong	Hunan	Education
+143	90	3	18	Guangdong	Guangdong	Education
+144	10	3	18	Guangdong	Guangdong	Education
+145	10	12	30	Guangdong	Hunan	Education
+242	10	9	5	Guizhou	Guizhou	Education
+245	30	10	26	Hebei	Yunnan	Education
+246	10	9	30	Hebei	Beijing	Education
+247	10	9	30	Hebei	Beijing	Education
+255	7	12	24	Henan	Henan	Education
+256	1	11	27	Henan	Henan	Education
+258	10	9	8	Hong Kong	Unspecified	Education
+259	8.94	12	31	Hong Kong	Guangdong	Education
+262	1	9	6	Hubei	Hubei	Education
+263	2.3	11	18	Hubei	Hubei	Education
+264	30	5	24	Hubei	Hubei	Education
+280	3	6	10	Hunan	Hunan	Education
+281	3	6	29	Hunan	Hunan	Education
+282	20	12	25	Hunan	Hubei	Education
+283	0.45	12	10	Hunan	Hunan	Education
+284	0.3	12	11	Hunan	Hunan	Education
+285	0.3	12	11	Hunan	Hunan	Education
+286	0.3	12	11	Hunan	Hunan	Education
+287	0.3	12	11	Hunan	Hunan	Education
+288	0.3	12	14	Hunan	Hunan	Education
+289	0.3	12	14	Hunan	Hunan	Education
+290	0.3	12	14	Hunan	Hunan	Education
+291	0.3	12	15	Hunan	Hunan	Education
+292	0.3	12	15	Hunan	Hunan	Education
+293	0.3	12	17	Hunan	Hunan	Education
+294	0.3	12	17	Hunan	Hunan	Education
+295	0.3	12	18	Hunan	Hunan	Education
+296	0.3	12	18	Hunan	Hunan	Education
+297	0.3	12	10	Hunan	Hunan	Education
+298	0.15	12	15	Hunan	Hunan	Education
+299	0.15	12	15	Hunan	Hunan	Education
+300	0.15	12	15	Hunan	Hunan	Education
+301	0.15	12	15	Hunan	Hunan	Education
+302	0.15	12	15	Hunan	Hunan	Education
+303	0.15	12	15	Hunan	Hunan	Education
+304	0.15	12	15	Hunan	Hunan	Education
+305	0.15	12	15	Hunan	Hunan	Education
+306	0.15	12	18	Hunan	Hunan	Education
+307	0.15	12	18	Hunan	Hunan	Education
+308	0.15	12	18	Hunan	Hunan	Education
+309	0.15	12	18	Hunan	Hunan	Education
+310	0.15	12	18	Hunan	Hunan	Education
+311	0.15	12	18	Hunan	Hunan	Education
+312	0.15	12	18	Hunan	Hunan	Education
+313	0.15	12	18	Hunan	Hunan	Education
+314	0.15	12	17	Hunan	Hunan	Education
+315	0.15	12	17	Hunan	Hunan	Education
+316	0.15	12	17	Hunan	Hunan	Education
+317	0.15	12	17	Hunan	Hunan	Education
+318	0.15	12	17	Hunan	Hunan	Education
+319	0.15	12	17	Hunan	Hunan	Education
+320	0.15	12	10	Hunan	Hunan	Education
+321	0.15	12	10	Hunan	Hunan	Education
+322	0.15	12	10	Hunan	Hunan	Education
+323	0.15	12	10	Hunan	Hunan	Education
+324	0.15	12	10	Hunan	Hunan	Education
+325	0.15	12	11	Hunan	Hunan	Education
+326	0.15	12	11	Hunan	Hunan	Education
+327	0.15	12	11	Hunan	Hunan	Education
+328	0.15	12	11	Hunan	Hunan	Education
+329	0.15	12	14	Hunan	Hunan	Education
+330	0.15	12	14	Hunan	Hunan	Education
+331	0.15	12	14	Hunan	Hunan	Education
+332	0.15	12	14	Hunan	Hunan	Education
+333	0.1	12	18	Hunan	Hunan	Education
+347	1	4	3	Jiangsu	Shaanxi	Education
+348	1	4	3	Jiangsu	Ningxia	Education
+349	1	4	3	Jiangsu	Inner Mongolia	Education
+350	1	4	3	Jiangsu	Gansu	Education
+351	1	4	3	Jiangsu	Qinghai	Education
+352	1	4	3	Jiangsu	Xinjiang	Education
+353	15	6	24	Jiangsu	Jiangsu	Education
+371	50	9	16	Jiangxi	Liaoning	Education
+372	9	10	12	Jiangxi	Hubei	Education
+373	5	9	29	Liaoning	Liaoning	Education
+374	1.25	10	27	Liaoning	Liaoning	Education
+376	65	12		Ningxia	Ningxia	Education
+377	60	10		Ningxia	Ningxia	Education
+378	30	9	17	Shandong	Guangdong	Education
+379	2	11	12	Shanghai	Beijing	Education
+380	100	1	8	Shanghai	Zhejiang	Education
+381	65	11	3	Shanghai	Shanghai	Education
+382	0.5	12	26	Shanghai	Shanghai	Education
+383	20	3	31	Shanghai	Shanghai	Education
+384	20	10	22	Shanghai	Shanghai	Education
+385	3.333333333	2	14	Shanghai	Shanghai	Education
+386	12	10	3	Shanghai	Shanghai	Education
+387	10	5	4	Shanghai	Shanghai	Education
+392	60	12	30	Sichuan	Chongqing	Education
+393	30	5	8	Sichuan	Sichuan	Education
+394	10	12	18	Sichuan	Sichuan	Education
+395	2.77	3	16	Sichuan	Sichuan	Education
+396	2.77	3	16	Sichuan	Sichuan	Education
+397	51	9	2	Sichuan	Sichuan	Education
+400	60	10	2	Tianjin	Tianjin	Education
+401	12	10	17	Tianjin	Tianjin	Education
+402	0.2	10	15	Tianjin	Jiangsu	Education
+415	100	4	4	Zhejiang	Zhejiang	Education
+416	1.666666667	1	17	Zhejiang	Shaanxi	Education
+417	1.666666667	1	17	Zhejiang	Gansu	Education
+418	1.666666667	1	17	Zhejiang	Ningxia	Education
+419	1.666666667	1	17	Zhejiang	Yunnan	Education
+420	1.666666667	1	17	Zhejiang	Guizhou	Education
+421	1.666666667	1	17	Zhejiang	Sichuan	Education
+422	50	4	8	Zhejiang	Shanghai	Education
+423	30	5	20	Zhejiang	Zhejiang	Education
+424	2	11	1	Zhejiang	Shandong	Education
+425	1.5	12	20	Zhejiang	Hubei	Education
+426	1.5	5	29	Zhejiang	Zhejiang	Education
+427	5	6	12	Zhejiang	Shanghai	Education
+432	10	9	3		Sichuan	Education
+433	0.073	1	26			Education
+146	0.2	9	11	Guangdong	Beijing	Environment
+147	0.2	9	25	Guangdong	Beijing	Environment
+243	1	8	25	Guizhou	Guizhou	Environment
+428	10	7	8	Zhejiang	Zhejiang	Environment
+93	3	11	9	Beijing	Hubei	Public Health
+94	0.3737	12	17	Beijing	Beijing	Public Health
+95	0.37043	12	17	Beijing	Beijing	Public Health
+96	0.36135	12	17	Beijing	Beijing	Public Health
+97	0.327545	12	17	Beijing	Beijing	Public Health
+98	0.20665	12	17	Beijing	Beijing	Public Health
+99	0.16559	12	17	Beijing	Beijing	Public Health
+100	0.1347	12	17	Beijing	Beijing	Public Health
+101	0.12505	12	17	Beijing	Beijing	Public Health
+102	0.034634333	12	17	Beijing	Beijing	Public Health
+103	30	12	22	Beijing	Beijing	Public Health
+104	2	3		Beijing	Jiangsu	Public Health
+105	1	10		Beijing	Beijing	Public Health
+106	0.1	11		Beijing	Jilin	Public Health
+107	16	10	17	Beijing	Beijing	Public Health
+148	13870	4	19	Guangdong	Guangdong	Public Health
+149		10	15	Guangdong	Guangdong	Public Health
+248	10	2	27	Hebei	Beijing	Public Health
+265	1	3	4	Hubei	Hubei	Public Health
+334	20	12	17	Hunan	Hunan	Public Health
+335	1	7	31	Hunan	Anhui	Public Health
+354	500	2	29	Jiangsu	Jiangsu	Public Health
+355	1	1	20	Jiangsu	Jiangsu	Public Health
+388	3.333333333	2	14	Shanghai	Shanghai	Public Health
+405	2	11	9	Tianjing	Sichuan	Public Health
+434	10	12	14		Shanghai	Public Health
+1	50	1	28	Anhui	Hubei	Social Welfare & Poverty Alleviation
+2	9	8	3	Anhui	Guangdong	Social Welfare & Poverty Alleviation
+3	9	8	3	Anhui	Guangdong	Social Welfare & Poverty Alleviation
+4	9	8	3	Anhui	Guangdong	Social Welfare & Poverty Alleviation
+5	9	8	3	Anhui	Guangdong	Social Welfare & Poverty Alleviation
+6	9	8	3	Anhui	Guangdong	Social Welfare & Poverty Alleviation
+7	5	8	3	Anhui	Guangdong	Social Welfare & Poverty Alleviation
+108	93.18	4	11	Beijing	Yunnan	Social Welfare & Poverty Alleviation
+109	10	2	2	Beijing	Liaoning	Social Welfare & Poverty Alleviation
+110	1300	8	29	Beijing	Beijing	Social Welfare & Poverty Alleviation
+111	0.034634333	12	17	Beijing	Beijing	Social Welfare & Poverty Alleviation
+118	27.5	5	30	Chongqing	Chongqing	Social Welfare & Poverty Alleviation
+122	8	2	23	Fujian	Fujian	Social Welfare & Poverty Alleviation
+150	1000	1	8	Guangdong	Guizhou	Social Welfare & Poverty Alleviation
+151	5	7	12	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+152	5	7	12	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+153	5	7	12	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+154	5	7	12	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+155	4	7	12	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+156	500	7	8	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+157	5	10	31	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+158	5	10	31	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+159	5	10	31	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+160	5	10	31	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+161	5	1	25	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+162	5	1	25	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+163	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+164	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+165	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+166	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+167	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+168	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+169	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+170	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+171	24.72	6	N/A	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+172	13.22	6	N/A	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+173	8.79	7	N/A	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+174	5.86	8	N/A	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+175	3.25	5	N/A	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+176	7.5	8	5	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+177	7.5	8	5	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+178	7.5	8	5	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+179	7.5	8	5	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+180	1.2	12	15	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+181	10	6	30	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+182	10	1	6	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+183	12.25	6	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+184	5	8	22	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+185	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+186	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+187	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+188	5	10	29	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+189	6.5	6	16	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+190	5	7	22	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+191	5	7	22	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+192	5	8	5	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+193	5	9	18	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+194	4.8	4	27	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+195	10	6	3	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+196	2	11	6	Guangdong	Beijing	Social Welfare & Poverty Alleviation
+197	9	9	30	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+198	1	9	30	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+199	5	11	9	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+200	5	11	9	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+201	5	6	22	Guangdong	Guangdong	Social Welfare & Poverty Alleviation
+234	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+235	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+236	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+237	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+238	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+239	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+240	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+241	7.5	8	5	Guangxi	Guangdong	Social Welfare & Poverty Alleviation
+244	2	12	29	Guizhou	Guizhou	Social Welfare & Poverty Alleviation
+249	15	10	25	Hebei	Shandong	Social Welfare & Poverty Alleviation
+266	113	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+267	100	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+268	1	11	9	Hubei	Hubei	Social Welfare & Poverty Alleviation
+269	20	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+270	10	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+271		3	4	Hubei	Hubei	Social Welfare & Poverty Alleviation
+272	32	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+273	20	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+274	10	1	29	Hubei	Hubei	Social Welfare & Poverty Alleviation
+275	10	1	28	Hubei	Hubei	Social Welfare & Poverty Alleviation
+276		12	18	Hubei	Hubei	Social Welfare & Poverty Alleviation
+277	3	1	22	Hubei	Guangdong	Social Welfare & Poverty Alleviation
+356	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+357	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+358	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+359	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+360	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+361	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+362	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+363	7.5	8	3	Jiangsu	Guangdong	Social Welfare & Poverty Alleviation
+364	40	5	10	Jiangsu	Unspecified	Social Welfare & Poverty Alleviation
+365	34.61	12	26	Jiangsu	Unspecified	Social Welfare & Poverty Alleviation
+366	1	3	30	Jiangsu	Beijing	Social Welfare & Poverty Alleviation
+367	0.5	3	9	Jiangsu	Nepal	Social Welfare & Poverty Alleviation
+368	0.5	3	30	Jiangsu	Sichuan	Social Welfare & Poverty Alleviation
+369	0.8	1		Jiangsu	Jiangsu	Social Welfare & Poverty Alleviation
+389	3.333333333	2	14	Shanghai	Shanghai	Social Welfare & Poverty Alleviation
+403	1	4	23	Tianjin	Sichuan	Social Welfare & Poverty Alleviation
+404	1.5	10	15	Tianjin	Jiangsu	Social Welfare & Poverty Alleviation
+406	20	10	16	Yunnan	Yunnan	Social Welfare & Poverty Alleviation
+429	0.3	10	30	Zhejiang	Beijing	Social Welfare & Poverty Alleviation
+112	3.52	11	30	Beijing	Beijing	Unspecified
+113	2	3		Beijing	Jiangsu	Unspecified
+114	0.5	7		Beijing	Beijing	Unspecified
+115	0.08405	12		Beijing	Hongkong	Unspecified
+116	10	7	N/A	Beijing	Beijing	Unspecified
+117	2900	9	18	Beijing	Beijing	Unspecified
+202	13.09	1	12	Guangdong	Beijing	Unspecified
+203	12.6	10	17	Guangdong	Beijing	Unspecified
+204	3.64	1	12	Guangdong	Beijing	Unspecified
+205	3.17	12	14	Guangdong	Guangdong	Unspecified
+206	2.29	1	12	Guangdong	Beijing	Unspecified
+207	2	2	1	Guangdong	Beijing	Unspecified
+208	2	3	22	Guangdong	Beijing	Unspecified
+209	2	2	1	Guangdong	Beijing	Unspecified
+210	1.5	11	19	Guangdong	Guangdong	Unspecified
+211	1.49	1	12	Guangdong	Beijing	Unspecified
+212	1.42	1	12	Guangdong	Beijing	Unspecified
+213	1.26	1	6	Guangdong	Beijing	Unspecified
+214	1.12	1	12	Guangdong	Beijing	Unspecified
+215	1.07	1	12	Guangdong	Beijing	Unspecified
+216	1	9	29	Guangdong	Guangdong	Unspecified
+217	0.99	1	12	Guangdong	Beijing	Unspecified
+218	0.69	1	12	Guangdong	Beijing	Unspecified
+219	0.67	1	12	Guangdong	Beijing	Unspecified
+220	0.5	8	5	Guangdong	Beijing	Unspecified
+221	0.48	1	12	Guangdong	Beijing	Unspecified
+222	0.35	1	12	Guangdong	Beijing	Unspecified
+223	0.26	1	12	Guangdong	Beijing	Unspecified
+224	0.25	1	12	Guangdong	Beijing	Unspecified
+225	0.23	1	12	Guangdong	Beijing	Unspecified
+226	0.2	9	24	Guangdong	Beijing	Unspecified
+227	0.2	1	12	Guangdong	Beijing	Unspecified
+228	0.2	9	17	Guangdong	Beijing	Unspecified
+229	0.2	9	17	Guangdong	Beijing	Unspecified
+230	0.17	1	12	Guangdong	Beijing	Unspecified
+231	0.12	1	12	Guangdong	Beijing	Unspecified
+232	0.1	1	12	Guangdong	Beijing	Unspecified
+233	0.1	1	12	Guangdong	Beijing	Unspecified
+278	10	9	5	Hubei	Hubei	Unspecified
+279	30	1	28	Hubei	Hubei	Unspecified
+336	1.3	3	9	Hunan	Shanxi	Unspecified
+370	5	2	1	Jiangsu	Jiangsu	Unspecified
+375	2.5	10	19	Liaoning	Liaoning	Unspecified
+390	3.5	5	25	Shanghai	Shanghai	Unspecified
+391	28.1	12	12	Shanghai	Beijing	Unspecified
+430	31.8255	9	26	Zhejiang	New York	Unspecified
+431	0.1	4	26	Zhejiang	Beijing	Unspecified

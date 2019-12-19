@@ -1,0 +1,51 @@
+id	amount	month	date	orig	dest	cause
+10	3.54	7	13	Beijing	Sichuan	Disaster Relief
+11	0.89701	12	17	Beijing	Sichuan	Disaster Relief
+12	0.66051	12	17	Beijing	Sichuan	Disaster Relief
+13	0.628585	12	17	Beijing	Sichuan	Disaster Relief
+14	0.39718	12	17	Beijing	Sichuan	Disaster Relief
+15	0.28148	12	17	Beijing	Sichuan	Disaster Relief
+16	0.25695	12	17	Beijing	Sichuan	Disaster Relief
+17	0.25505	12	17	Beijing	Sichuan	Disaster Relief
+18	0.247831	12	17	Beijing	Sichuan	Disaster Relief
+19	0.1762	12	17	Beijing	Sichuan	Disaster Relief
+20	0.14984	12	17	Beijing	Sichuan	Disaster Relief
+21	0.14495	12	17	Beijing	Sichuan	Disaster Relief
+22	0.1393	12	17	Beijing	Sichuan	Disaster Relief
+23	0.1037	12	17	Beijing	Sichuan	Disaster Relief
+24	10	9		Beijing	Tianjin	Disaster Relief
+25	0.5403821	3		Beijing	Hebei	Disaster Relief
+26	0.3985727	7		Beijing	Hubei	Disaster Relief
+27	0.34165333	3		Beijing	Jiangsu	Disaster Relief
+28	0.12882	10		Beijing	Tianjin	Disaster Relief
+29	0.1008695	7		Beijing	Fujian	Disaster Relief
+30	0.1002445	7		Beijing	Hubei	Disaster Relief
+31	0.08608786	3		Beijing	Liaoning	Disaster Relief
+32	0.0717944	3		Beijing	Liaoning	Disaster Relief
+33	0.02372	3		Beijing	Shanxi	Disaster Relief
+34	0.012882	10		Beijing	Tianjin	Disaster Relief
+35	4	7	24	Beijing	Hainan	Disaster Relief
+36	2	7	11	Beijing	Hubei	Disaster Relief
+119	8	12	15	Fujian	Beijing	Disaster Relief
+257	10	6	24	Hong Kong	Jiangsu	Disaster Relief
+260	6	7	8	Hubei	Hubei	Disaster Relief
+261	1	7	16	Hubei	Hubei	Disaster Relief
+338	1.5	8	26	Jiangsu	Italy	Disaster Relief
+339	1	8	3.25	Jiangsu	Hubei	Disaster Relief
+340	1	8	3.25	Jiangsu	Hunan	Disaster Relief
+341	1	8	3.25	Jiangsu	Anhui	Disaster Relief
+342	1	8	3.25	Jiangsu	Guizhou	Disaster Relief
+343	1	8	3.25	Jiangsu	Yunnan	Disaster Relief
+344	1	8	3.25	Jiangsu	Guangxi	Disaster Relief
+345	1	8	3.25	Jiangsu	Jiangxi	Disaster Relief
+346	1	8	3.25	Jiangsu	Chongqing	Disaster Relief
+398	18.5	9	10	Tianjin	Tianjin	Disaster Relief
+399	10	6		Tianjin	Jiangsu	Disaster Relief
+407	0.25	7	27	Zhejiang	Hubei	Disaster Relief
+408	0.25	7	27	Zhejiang	Hunan	Disaster Relief
+409	0.25	7	27	Zhejiang	Anhui	Disaster Relief
+410	0.25	7	27	Zhejiang	Guizhou	Disaster Relief
+411	0.25	7	27	Zhejiang	Yunnan	Disaster Relief
+412	0.25	7	27	Zhejiang	Guangxi	Disaster Relief
+413	0.25	7	27	Zhejiang	Jiangxi	Disaster Relief
+414	0.25	7	27	Zhejiang	Chongqing	Disaster Relief

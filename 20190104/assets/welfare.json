@@ -1,0 +1,407 @@
+[
+ {
+   "id": 111,
+   "amount": 0.3,
+   "month": 6,
+   "date": 5,
+   "orig": "Guangdong",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 161,
+   "amount": 5,
+   "month": 1,
+   "date": 12,
+   "orig": "Guangdong",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 166,
+   "amount": 1.423883,
+   "month": 5,
+   "date": 26,
+   "orig": "Beijing",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 176,
+   "amount": 0.1,
+   "month": 9,
+   "date": null,
+   "orig": "Zhejiang",
+   "dest": "Zhejiang",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 180,
+   "amount": 0.15,
+   "month": null,
+   "date": null,
+   "orig": "Shandong",
+   "dest": "Shandong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 184,
+   "amount": 24,
+   "month": null,
+   "date": null,
+   "orig": "Fujian",
+   "dest": "Fujian",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 193,
+   "amount": 0.3,
+   "month": 12,
+   "date": 31,
+   "orig": "Zhejiang",
+   "dest": "Zhejiang",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 205,
+   "amount": 1.8,
+   "month": null,
+   "date": null,
+   "orig": "Guangxi",
+   "dest": "Guangxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 206,
+   "amount": 3.002,
+   "month": null,
+   "date": null,
+   "orig": "Guangxi",
+   "dest": "Guangxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 207,
+   "amount": 1.8,
+   "month": null,
+   "date": null,
+   "orig": "Guangxi",
+   "dest": "Guangxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 218,
+   "amount": 0.35,
+   "month": 12,
+   "date": 19,
+   "orig": "Jiangsu",
+   "dest": "Jiangsu",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 222,
+   "amount": 0.3969,
+   "month": null,
+   "date": null,
+   "orig": "Shandong",
+   "dest": "Shandong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 225,
+   "amount": 10,
+   "month": 12,
+   "date": 31,
+   "orig": "Zhejiang",
+   "dest": "Zhejiang",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 228,
+   "amount": 0.4,
+   "month": null,
+   "date": null,
+   "orig": "Gansu",
+   "dest": "Gansu",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 249,
+   "amount": 0.11984,
+   "month": 1,
+   "date": 6,
+   "orig": "Zhejiang",
+   "dest": "Jiangsu",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 276,
+   "amount": 5.144132,
+   "month": 3,
+   "date": 23,
+   "orig": "Shanghai",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 311,
+   "amount": 7.3321264,
+   "month": null,
+   "date": null,
+   "orig": "Shanghai",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 333,
+   "amount": 1.1911825,
+   "month": 11,
+   "date": 23,
+   "orig": "Shanghai",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 334,
+   "amount": 0.396973,
+   "month": 11,
+   "date": 23,
+   "orig": "Shanghai",
+   "dest": "Jiangxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 335,
+   "amount": 1.0229875,
+   "month": 11,
+   "date": 23,
+   "orig": "Shanghai",
+   "dest": "Jiangxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 336,
+   "amount": 1.754513,
+   "month": 11,
+   "date": 23,
+   "orig": "Shanghai",
+   "dest": "Qinghai",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 337,
+   "amount": 1.1260935,
+   "month": 6,
+   "date": 1,
+   "orig": "Shanghai",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 338,
+   "amount": 0.13107975,
+   "month": 6,
+   "date": 1,
+   "orig": "Shanghai",
+   "dest": "Qinghai",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 339,
+   "amount": 1.083093,
+   "month": 6,
+   "date": 1,
+   "orig": "Shanghai",
+   "dest": "Jiangxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 349,
+   "amount": 1,
+   "month": 10,
+   "date": 26,
+   "orig": "Shaanxi",
+   "dest": "Shaanxi",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 429,
+   "amount": 60,
+   "month": 12,
+   "date": 28,
+   "orig": "Guangdong",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 434,
+   "amount": 0.2,
+   "month": 3,
+   "date": 29,
+   "orig": "Hainan",
+   "dest": "Hainan",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 435,
+   "amount": 1.08,
+   "month": null,
+   "date": null,
+   "orig": "Hubei",
+   "dest": "Hubei",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 436,
+   "amount": 0.985,
+   "month": 12,
+   "date": 21,
+   "orig": "Guangdong",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 437,
+   "amount": 0.985,
+   "month": 8,
+   "date": 22,
+   "orig": "Guangdong",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 471,
+   "amount": 2.8,
+   "month": 11,
+   "date": 16,
+   "orig": "Inner Mongolia",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 480,
+   "amount": 15.73,
+   "month": 4,
+   "date": 11,
+   "orig": "Guangdong",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 487,
+   "amount": 1,
+   "month": 8,
+   "date": 24,
+   "orig": "Guangdong",
+   "dest": "Guangdong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 488,
+   "amount": 0.2,
+   "month": 5,
+   "date": null,
+   "orig": "Guangdong",
+   "dest": "Guangdong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 493,
+   "amount": 0.3,
+   "month": null,
+   "date": null,
+   "orig": "Shandong",
+   "dest": "Shandong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 496,
+   "amount": 0.247,
+   "month": null,
+   "date": null,
+   "orig": "Sichuan",
+   "dest": "Sichuan",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 505,
+   "amount": 1,
+   "month": null,
+   "date": null,
+   "orig": "Beijing",
+   "dest": "Sichuan",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 506,
+   "amount": 4.259002,
+   "month": null,
+   "date": null,
+   "orig": "Hubei",
+   "dest": "Hubei",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 513,
+   "amount": 0.5,
+   "month": null,
+   "date": null,
+   "orig": "Guangdong",
+   "dest": "Guangdong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 543,
+   "amount": 7.75,
+   "month": null,
+   "date": null,
+   "orig": "Shanghai",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 544,
+   "amount": 11.98,
+   "month": null,
+   "date": null,
+   "orig": "Shanghai",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 637,
+   "amount": 1.8,
+   "month": 10,
+   "date": 9,
+   "orig": "Beijing",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 645,
+   "amount": 15,
+   "month": 12,
+   "date": 17,
+   "orig": "Guangdong",
+   "dest": "Guangdong",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 657,
+   "amount": 10.5,
+   "month": 3,
+   "date": 17,
+   "orig": "Beijing",
+   "dest": "Unspecific",
+   "cause": "Social Welfare"
+ },
+ {
+   "id": 720,
+   "amount": 2,
+   "month": 12,
+   "date": 21,
+   "orig": "Beijing",
+   "dest": "Beijing",
+   "cause": "Social Welfare"
+ }
+]

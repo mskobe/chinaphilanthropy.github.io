@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link href="assets/css/custom.css" rel="stylesheet">
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="assets/js/colorbrewer.js"></script>
+<script src="assets/js/sortprovinces.js"></script>
+<div class="svg-container" id="chart"  align="center" ></div>
+
+<script>
+    var total = 0;
+
+    var fistLetterUpper = function(str) {
+        str = str.toLowerCase();
+        if(str.split(" ").length > 1){
+          str = str.split(" ");
+          return str[0].charAt(0).toUpperCase()+str[0].slice(1)+" "+str[1].charAt(0).toUpperCase()+str[1].slice(1)
+        }
+        return str.charAt(0).toUpperCase()+str.slice(1);
+    };
+
+    var outerRadius = window.outerWidth / 3;
+    viewBoxLeft = -60;
+    viewBoxTop = -60;
+    viewBoxBottom = (outerRadius * 2) + 120;
+    viewBoxRight = (outerRadius * 2) + 120;
+
+        var innerRadius = outerRadius * 0.68 ;
+
+    // var fill = d3.scale.category20c();
+
+    var chord = d3.layout.chord()
+        .padding(.04)
+        .sortSubgroups(d3.descending)
+        .sortChords(d3.descending);
+
+    var arc = d3.svg.arc()
+        .innerRadius(innerRadius)
+        .outerRadius(innerRadius + 20);
+
+    var svg = d3.select("#chart").append("svg")
+.attr("viewBox", "" + viewBoxLeft + " " + viewBoxTop + " " + viewBoxRight + " " + viewBoxBottom)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .append("g")
+        .attr("transform", "translate(" + outerRadius + "," + outerRadius + ")");
+
+    d3.json("assets/alleviation.json", function(error, items) {
+        if (error) throw error;
+
+        var indexByName = d3.map(),
+            nameByIndex = d3.map(),
+            matrix = [],
+            origs = [],
+            dests = [],
+            causes = [],
+            n = 0;
+
+        // Returns the Flare package name for the given class name.
+        function name(name) {
+            //return name.substring(0, name.lastIndexOf(".")).substring(6);
+            return name;
+        }
+
+        $.each(items, function(i, item){
+            if (item.orig !== "") {
+                origs.push(item.orig.trim().toUpperCase());
+            }
+            if (item.dest !== "") {
+                dests.push(item.dest.trim().toUpperCase());
+            }
+            if (item.cause !== "") {
+                causes.push(item.dest.trim().toUpperCase());
+            }
+
+        });
+
+        origs = $.unique(origs);
+        dests = $.unique(dests);
+        causes = $.unique(causes);
+        nodes = $.unique((origs + ","+ dests).split(","));
+        provinces = [];
+
+
+        $.each(nodes, function(i, source){
+
+            amount = 0 ;
+            imports = [];
+            $.each(items, function(i, item){
+                if (item.orig.trim().toUpperCase() === source) {
+                    amount -= item.amount;
+                    imports.push(item.dest.trim().toUpperCase());
+                }
+                if (item.dest.trim().toUpperCase() === source) {
+                    amount += item.amount;
+                }
+
+            });
+            if (amount == 0 ) {amount = 100 ;}
+            provinces.push({
+                'name': source,
+                'size': amount,
+                'imports': $.unique(imports)
+            });
+
+
+        });
+
+        provinces = reprovinces(provinces)
+
+        // Compute a unique index for each package name.
+        provinces.forEach(function(d) {
+            if (!indexByName.has(d = name(d.name))) {
+                nameByIndex.set(n, d);
+                indexByName.set(d, n++);
+            }
+        });
+
+        // Construct a square matrix counting package imports.
+        provinces.forEach(function(d) {
+            var source = indexByName.get(name(d.name)),
+                row = matrix[source];
+            if (!row) {
+                row = matrix[source] = [];
+                for (var i = -1; ++i < n;) row[i] = 0;
+            }
+            // d.imports.forEach(function(d) { row[indexByName.get(name(d))]++; });
+        });
+        $.each(items, function(i, item){
+          var orig_id = indexByName.get(item.orig.toUpperCase());
+          var dest_id = indexByName.get(item.dest.toUpperCase());
+          var amount = item.amount;
+          amount = new Number(amount.toString());
+          total += amount
+          if (typeof(orig_id) != "undefined" && typeof(dest_id) != "undefined"){
+            matrix[parseInt(orig_id)][parseInt(dest_id)]+= amount;
+          }
+        });
+
+        chord.matrix(matrix);
+
+        var g = svg.selectAll(".group")
+            .data(chord.groups)
+            .enter().append("g")
+            .attr("class", "group")
+            .on("mouseover", mouseover)
+            .on("mouseout", mouseout);
+
+        g.append("path")
+            .style("fill", function(d) { return fill(d.index); })
+            .style("stroke", function(d) { return fill(d.index); })
+            .attr("d", arc);
+
+        g.append("text")
+            .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+            .attr("dy", ".35em")
+            .attr("transform", function(d) {
+                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+                    + "translate(" + (innerRadius + 26) + ")"
+                    + (d.angle > Math.PI ? "rotate(180)" : "");
+            })
+			.style("font-size", "16")
+            .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+            .text(function(d) { return fistLetterUpper(nameByIndex.get(d.index)); });
+
+        var chords = svg.selectAll(".chord")
+            .data(chord.chords)
+            .enter().append("path")
+            .attr("class", "chord")
+            .style("stroke", function(d) { return d3.rgb(fill(d.source.index)).darker(); })
+            .style("fill", function(d) { return fill(d.source.index); })
+            .attr("d", d3.svg.chord().radius(innerRadius));
+
+
+        chords.append("title")
+            .text(function(d) {
+                amount = 0;
+                $.each(items, function(i, item){
+
+                    if (item.orig.trim().toUpperCase() === provinces[d.source.index].name && item.dest.trim().toUpperCase() === provinces[d.target.index].name) {
+                      var num = new Number(item.amount.toString());
+                      amount += num;
+                    }
+
+
+                });
+                var num = new Number(amount.toString());
+                var percentage = ((num/total)*100).toFixed(2) + '%';
+                num = (num / 6.5).toFixed(2);
+                return fistLetterUpper(provinces[d.source.index].name) + " -> " + fistLetterUpper(provinces[d.target.index].name) + ": $" + num + " million, "+percentage+" of all Social Welfare & Poverty Alleviation donations";
+            });
+
+        function mouseover(d, i) {
+            chords.classed("fade", function(p) {
+                return p.source.index !== i
+                    && p.target.index !== i;
+            });}
+
+        function mouseout(d, i) {
+          var m = d3.mouse(this);
+          if (Math.sqrt(Math.pow(m[0],2) + Math.pow(m[1],2)) > innerRadius + 20){
+            chords.classed("fade", false);
+          }
+        }
+
+    });
+
+    d3.select(self.frameElement).style("height", outerRadius * 2 + "px");
+
+</script>

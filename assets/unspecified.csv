@@ -1,0 +1,48 @@
+id	amount	month	date	orig	dest	cause
+112	3.52	11	30	Beijing	Beijing	Unspecified
+113	2	3		Beijing	Jiangsu	Unspecified
+114	0.5	7		Beijing	Beijing	Unspecified
+115	0.08405	12		Beijing	Hongkong	Unspecified
+116	10	7	N/A	Beijing	Beijing	Unspecified
+117	2900	9	18	Beijing	Beijing	Unspecified
+202	13.09	1	12	Guangdong	Beijing	Unspecified
+203	12.6	10	17	Guangdong	Beijing	Unspecified
+204	3.64	1	12	Guangdong	Beijing	Unspecified
+205	3.17	12	14	Guangdong	Guangdong	Unspecified
+206	2.29	1	12	Guangdong	Beijing	Unspecified
+207	2	2	1	Guangdong	Beijing	Unspecified
+208	2	3	22	Guangdong	Beijing	Unspecified
+209	2	2	1	Guangdong	Beijing	Unspecified
+210	1.5	11	19	Guangdong	Guangdong	Unspecified
+211	1.49	1	12	Guangdong	Beijing	Unspecified
+212	1.42	1	12	Guangdong	Beijing	Unspecified
+213	1.26	1	6	Guangdong	Beijing	Unspecified
+214	1.12	1	12	Guangdong	Beijing	Unspecified
+215	1.07	1	12	Guangdong	Beijing	Unspecified
+216	1	9	29	Guangdong	Guangdong	Unspecified
+217	0.99	1	12	Guangdong	Beijing	Unspecified
+218	0.69	1	12	Guangdong	Beijing	Unspecified
+219	0.67	1	12	Guangdong	Beijing	Unspecified
+220	0.5	8	5	Guangdong	Beijing	Unspecified
+221	0.48	1	12	Guangdong	Beijing	Unspecified
+222	0.35	1	12	Guangdong	Beijing	Unspecified
+223	0.26	1	12	Guangdong	Beijing	Unspecified
+224	0.25	1	12	Guangdong	Beijing	Unspecified
+225	0.23	1	12	Guangdong	Beijing	Unspecified
+226	0.2	9	24	Guangdong	Beijing	Unspecified
+227	0.2	1	12	Guangdong	Beijing	Unspecified
+228	0.2	9	17	Guangdong	Beijing	Unspecified
+229	0.2	9	17	Guangdong	Beijing	Unspecified
+230	0.17	1	12	Guangdong	Beijing	Unspecified
+231	0.12	1	12	Guangdong	Beijing	Unspecified
+232	0.1	1	12	Guangdong	Beijing	Unspecified
+233	0.1	1	12	Guangdong	Beijing	Unspecified
+278	10	9	5	Hubei	Hubei	Unspecified
+279	30	1	28	Hubei	Hubei	Unspecified
+336	1.3	3	9	Hunan	Shanxi	Unspecified
+370	5	2	1	Jiangsu	Jiangsu	Unspecified
+375	2.5	10	19	Liaoning	Liaoning	Unspecified
+390	3.5	5	25	Shanghai	Shanghai	Unspecified
+391	28.1	12	12	Shanghai	Beijing	Unspecified
+430	31.8255	9	26	Zhejiang	New York	Unspecified
+431	0.1	4	26	Zhejiang	Beijing	Unspecified

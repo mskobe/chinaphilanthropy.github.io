@@ -1,0 +1,69 @@
+body {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    top: 0px;
+    right:0px;
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+}
+
+.chord {
+    fill-opacity: .67;
+}
+
+svg {
+    pointer-events: all;
+}
+
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+path.fade {
+    display: none;
+}
+
+#circle:hover path.fade {
+  display: none;
+}
+
+#title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#logo img {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 200px;
+}
+
+#tos {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 400px;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 1242px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svg-container svg {
+    height: auto;
+    width: 100%;
+    perspective-origin: 360px 360px;
+    transform-origin: 360px 360px;
+}
+
+svg * {
+    font-size: inherit !important;
+}

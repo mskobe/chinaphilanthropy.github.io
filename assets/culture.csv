@@ -1,0 +1,11 @@
+id	amount	month	date	orig	dest	cause
+8	1000	12	16	Beijing	Jiangsu	Culture
+9	15	12	N/A	Beijing	Beijing	Culture
+123	0.75	8	1	Guangdong	Jiangsu	Culture
+124	10	3	16	Guangdong	Shanxi	Culture
+250	20.055	5	3	Heilongjiang	Beijing	Culture
+251	17.00139	6	15	Heilongjiang	Beijing	Culture
+252	13.013821	9	27	Heilongjiang	Beijing	Culture
+253	5	4	28	Heilongjiang	Beijing	Culture
+254	5	8	9	Heilongjiang	Beijing	Culture
+337	1.8			Jiangsu	Jiangsu	Culture
