@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="../assets/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<!-- <script src="assets/js/colorbrewer.js"></script>
-<script src="assets/js/sortprovinces.js"></script> -->
-<div class="svg-container" id="chart"  align="center" ></div>
-
-<script>
+  <div class="svg-container" id="chart"  align="center" ></div>
+  <script>
 // This product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).
 // JavaScript specs as packaged in the D3 library (d3js.org). Please see license at http://colorbrewer.org/export/LICENSE.txt
 var colorbrewer = {YlGn: {
@@ -356,9 +353,6 @@ function reprovinces(provinces) {
     }
     num = num + 1;
   }
-
-  // pro = pro.concat(provinces);
-  // colors_list = colors_list.concat(colorbrewer.Greys[provinces.length].reverse());
   return pro;
 }
 
@@ -374,22 +368,17 @@ function reprovinces(provinces) {
     };
 
     var outerRadius = window.outerWidth / 3;
-    viewBoxLeft = -60;
-    viewBoxTop = -60;
-    viewBoxBottom = (outerRadius * 2) + 120;
-    viewBoxRight = (outerRadius * 2) + 120;
+    var viewBoxLeft = -60;
+    var viewBoxTop = -60;
+    var viewBoxBottom = (outerRadius * 2) + 120;
+    var viewBoxRight = (outerRadius * 2) + 120;
 
-        var innerRadius = outerRadius * 0.8 ;
+    var innerRadius = outerRadius * 0.68 ;
 
-    // var fill = d3.scale.category20c();
     var arc = d3.svg.arc()
         .innerRadius(innerRadius)
         .outerRadius(innerRadius + 20);
 
-    // var path = d3.layout.chord()
-    //     .padding(.04)
-    //     .sortSubgroups(d3.descending)
-    //     .sortChords(d3.descending);
     var layout = d3.layout.chord()
             .padding(.04)
             .sortSubgroups(d3.descending)
@@ -400,7 +389,7 @@ function reprovinces(provinces) {
 
 
     var svg = d3.select("#chart").append("svg")
-.attr("viewBox", "" + viewBoxLeft + " " + viewBoxTop + " " + viewBoxRight + " " + viewBoxBottom)
+        .attr("viewBox", "" + viewBoxLeft + " " + viewBoxTop + " " + viewBoxRight + " " + viewBoxBottom)
         .attr("preserveAspectRatio", "xMidYMid meet")
         .append("g")
         .attr('id', 'circle')
@@ -409,7 +398,7 @@ function reprovinces(provinces) {
     svg.append("circle")
         .attr("r", innerRadius*1.09);
 
-    d3.json("assets/all.json", function(error, items) {
+    d3.json("../assets/all.json", function(error, items) {
         if (error) throw error;
 
         var indexByName = d3.map(),
@@ -420,9 +409,7 @@ function reprovinces(provinces) {
             causes = [],
             n = 0;
 
-        // Returns the Flare package name for the given class name.
         function name(name) {
-            //return name.substring(0, name.lastIndexOf(".")).substring(6);
             return name;
         }
 
@@ -452,16 +439,11 @@ function reprovinces(provinces) {
 
         origs = unique(origs);
         dests = unique(dests);
-        // origs = Array.from(new Set(origs));
-        // dests = Array.from(new Set(dests));
         causes = unique(causes);
         nodes = unique((origs + ","+ dests).split(","));
-        // causes = Array.from(new Set(causes));
-        // nodes = Array.from(new Set((origs + ","+ dests).split(",")));
         provinces = [];
 
         $.each(nodes, function(i, source){
-
             amount = 0 ;
             imports = [];
             $.each(items, function(i, item){
@@ -472,20 +454,16 @@ function reprovinces(provinces) {
                 if (item.dest.trim().toUpperCase() === source) {
                     amount += item.amount;
                 }
-
             });
-
             if (amount == 0 ) {amount = 100 ;}
             provinces.push({
                 'name': source,
                 'size': amount,
-                'imports': Array.from(new Set(imports))
+                'imports': unique(imports)
             });
 
         });
-        // console.log(provinces.length);
         provinces = reprovinces(provinces)
-
 
         // Compute a unique index for each package name.
         provinces.forEach(function(d) {
@@ -503,7 +481,6 @@ function reprovinces(provinces) {
                 row = matrix[source] = [];
                 for (var i = -1; ++i < n;) row[i] = 0;
             }
-            // d.imports.forEach(function(d) { row[indexByName.get(name(d))]++; });
         });
         $.each(items, function(i, item){
           var orig_id = indexByName.get(item.orig.toUpperCase());
@@ -516,15 +493,13 @@ function reprovinces(provinces) {
           }
         });
 
-
         layout.matrix(matrix);
 
         var g = svg.selectAll(".group")
             .data(layout.groups)
             .enter().append("g")
             .attr("class", "group")
-            .on("mouseover", mouseover)
-            .on("mouseout", mouseout);
+            .on("mouseover", mouseover);
 
         var groupPath = g.append("path")
             .style("fill", function(d) { return fill(d.index); })
@@ -551,18 +526,14 @@ function reprovinces(provinces) {
             .style("fill", function(d) { return fill(d.source.index); })
             .attr("d", d3.svg.chord().radius(innerRadius));
 
-
         chord.append("title")
             .text(function(d) {
                 amount = 0;
                 $.each(items, function(i, item){
-
                     if (item.orig.trim().toUpperCase() === provinces[d.source.index].name && item.dest.trim().toUpperCase() === provinces[d.target.index].name) {
                       var num = new Number(item.amount.toString());
                       amount += num;
                     }
-
-
                 });
                 var num = new Number(amount.toString());
                 var percentage = ((num/total)*100).toFixed(2) + '%';
@@ -570,24 +541,11 @@ function reprovinces(provinces) {
                 return fistLetterUpper(provinces[d.source.index].name) + " -> " + fistLetterUpper(provinces[d.target.index].name) + ": $" + num + " million, "+percentage+" of all donations";
             });
 
-        // function mouseover(d, i) {
-        //     chords.classed("fade", function(p) {
-        //         return p.source.index !== i
-        //             && p.target.index !== i;
-        //     });}
-
         function mouseover(d, i) {
           chord.classed("fade", function(p) {
             return p.source.index != i
                 && p.target.index != i;
           });
-        }
-
-        function mouseout(d, i) {
-          var m = d3.mouse(this);
-          if (Math.sqrt(Math.pow(m[0],2) + Math.pow(m[1],2)) > innerRadius + 20){
-            chord.classed("fade", false);
-          }
         }
 
     });
