@@ -1,1 +1,1 @@
-[{"id": 203, "amount": 323.9050698, "month": "", "date": "", "orig": "Consumer", "dest": "Shandong", "cause": "Disaster Relief"}, {"id": 374, "amount": 174.7564, "month": 3, "date": 28, "orig": "Consumer", "dest": "Jilin", "cause": "Disaster Relief"}]
+[{"id": 203, "amount": 323.9050698, "month": null, "date": null, "orig": "Consumer", "dest": "Shandong", "cause": "Disaster Relief"}, {"id": 374, "amount": 174.7564, "month": 3, "date": 28, "orig": "Consumer", "dest": "Jilin", "cause": "Disaster Relief"}]
